@@ -26,7 +26,7 @@ int main(){
 				cout<<endl<<endl;
 
 
-
+	int i,j;
 	for (int i=0;i<=14;i++){
 		for (j=0;j<=14;j++){
 			cout<<" "<<word[i][j];
