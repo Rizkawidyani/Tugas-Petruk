@@ -23,9 +23,6 @@ int main(){
 				{'p','d','c','r','z','m','s','n','g','r','d','n','r','p','z'},
 				{'o','h','n','k','z','w','a','t','e','r','j','g','t','r','a'}};
 
-				cout<<endl<<endl;
-
-
 	int i,j;
 	for (int i=0;i<=14;i++){
 		for (j=0;j<=14;j++){
