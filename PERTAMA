@@ -7,7 +7,6 @@ int main(){
 	awal:;
 
 	char findwords[15];
-	int j,k,l;
 	char word[15][15] =	{{'t','g','b','w','w','i','n','t','e','r','w','s','e','s','n'},
 				{'a','a','u','n','t','t','m','m','h','f','o','o','d','n','b'},
 				{'j','l','w','c','q','l','d','z','m','p','m','v','d','m','r'},
@@ -33,4 +32,6 @@ int main(){
 			cout<<" "<<word[i][j];
 		}
 		cout<<endl;
+	}
+	return 0;
 	}
