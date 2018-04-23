@@ -45,6 +45,7 @@ int main(){
 	strlwr(findwords);
 	l=0;
 	}
+	
 	//horizontal ke kanan
 		for(int j=0;j<=15;j++){
 			for(int k=0;k<=15;k++){
@@ -58,6 +59,29 @@ int main(){
 				}
 				if(l==nkata){
 				}
+			}
+		}
+		
+		//Horizontal kiri
+				for(int j=14;j>=0;j--){
+			for(int k=14;k>=0;k--){
+				if (findwords[l]==word[j][k]){
+					l++;
+				}else{
+					if(word[j][k]==word[j][k+1]){
+
+					}else{
+						l=0;
+					}
+				if(l==nkata){
+				}
+			}
+		}
+			}
+			if(l==nkata){
+				cout<<" Hasil : Ada "<<endl<<endl;
+			}else{
+				cout<<" Hasil : Tidak Ada "<<endl<<endl;
 			}
 		}
 	
