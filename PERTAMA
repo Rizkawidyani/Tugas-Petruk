@@ -4,6 +4,8 @@
 using namespace std;
 int main(){
 
+	int jumlahkata, nkata;
+
 	awal:;
 
 	char findwords[15];
@@ -30,5 +32,19 @@ int main(){
 		}
 		cout<<endl;
 	}
+	
+	
+	cout<<endl<<" Masukkan banyak kata yang dicari = ";
+	cin>>jumlahkata;
+		
+	for(int x=1;x<=jumlahkata;x++){
+	cout<<endl<<" Masukkan kata yang ingin dicari pada program find words : ";
+	cin>>findwords;
+	nkata=strlen(findwords);
+	strlwr(findwords);
+	}
+	
 	return 0;
 	}
+	
+	
